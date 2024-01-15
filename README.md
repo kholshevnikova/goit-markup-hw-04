@@ -1,57 +1,32 @@
-# goit-markup-hw-01
+.header-nav-item {
+color: var(--NAVY-BLUE, #2e2f42);
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+padding-top: 24px;
+display: block;
+padding-bottom: 24px;
+position: relative;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
-    <section>
-        <h2>Our Portfolio</h2>
-        <ul>
-          <li>
-            <img
-              src="./imades/bank.jpg"
-              alt="bank-app"
-              width="360"
-              height="300"
-            />
-            <h3>Banking App</h3>
-            <p>App</p>
-          </li>
-          <li>
-            <img
-              src="./imades/cash.jpg"
-              alt="cashless"
-              width="360"
-              height="300"
-            />
-            <h3>Cashless Payment</h3>
-            <p>Marketing</p>
-          </li>
-          <li>
-            <img
-              src="./imades/medi.jpg"
-              alt="meditation-app"
-              width="360"
-              height="300"
-            />
-            <h3>Meditation App</h3>
-            <p>App</p>
-          </li>
-          <li>
-            <img src="./imades/taxi.jpg" alt="taxi" width="360" height="300" />
-            <h3>Taxi Service</h3>
-            <p>Marketing</p>
-          </li>
-          <li>
-            <img
-              src="./imades/screen.jpg"
-              alt="screen"
-              width="360"
-              height="300"
-            />
-            <h3>Screen Illustrations</h3>
-            <p>Design</p>
-          </li>
-          <li>
-            <img src="./imades/girl.jpg" alt="girl" width="360" height="300" />
-            <h3>Online Courses</h3>
-            <p>Marketing</p>
-          </li>
-        </ul>
-      </section>
+.header-nav-item:hover {
+color: #404bbf;
+}
+
+.header-nav-item:focus {
+color: #404bbf;
+}
+.active:active {
+color: #404bbf;
+}
+.active:active::after {
+content: "";
+border-radius: 2px;
+background: #404bbf;
+width: 48px;
+height: 4px;
+position: absolute;
+left: 0;
+bottom: -1px;}
