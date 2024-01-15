@@ -97,7 +97,7 @@ p {
 .header-nav-item:focus {
   color: #404bbf;
 }
-.active:active {
+.active {
   color: #404bbf;
 }
 .active:active::after {
