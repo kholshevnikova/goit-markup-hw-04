@@ -99,7 +99,7 @@ p {
   color: #404bbf;
 }
 
-.header-nav-item:active::after {
+.header-nav-item::after {
   content: "";
   border-radius: 2px;
   background: #404bbf;
