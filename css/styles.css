@@ -278,8 +278,8 @@ p {
 }
 
 .team-soc-item {
-  width: 40px;
   height: 40px;
+  width: 40px;
   background-color: #4d5ae5;
   border-radius: 50%;
 }
@@ -468,7 +468,7 @@ p {
   margin-right: 120px;
 }
 .footer-soc-wrapper {
-  display: flex;
+  display: block;
 }
 .footer-cos-list {
   display: flex;
