@@ -99,7 +99,7 @@ p {
 .active:active {
   color: #404bbf;
 }
-.active:active::after {
+.active::after {
   content: "";
   border-radius: 2px;
   background: #404bbf;
